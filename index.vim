@@ -29,6 +29,13 @@ let &t_EI = "\e[2 q"
 
 inoremap jj <esc>
 
+filetype plugin indent on
+filetype detect
+
+autocmd Filetype make
+  \ setlocal tabstop=8 |
+  \ setlocal noexpandtab
+
 source ~/vim/gruvbox.vim
 source ~/vim/surround.vim
 source ~/vim/auto-pairs.vim
