@@ -1,7 +1,7 @@
+language messages en_US
 set nocompatible
 set noswapfile
 set history=1000
-set cursorline
 set nu
 syntax on
 set modelines=0
@@ -22,7 +22,6 @@ set hlsearch
 set incsearch
 set showmatch
 set t_Co=256
-set background=dark
 
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
@@ -36,7 +35,6 @@ autocmd Filetype make
   \ setlocal tabstop=8 |
   \ setlocal noexpandtab
 
-source ~/vim/gruvbox.vim
 source ~/vim/surround.vim
 source ~/vim/auto-pairs.vim
 
