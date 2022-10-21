@@ -36,6 +36,4 @@ autocmd Filetype make
   \ setlocal noexpandtab
 
 source ~/vim/surround.vim
-source ~/vim/auto-pairs.vim
-
 
